@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+    <product>
+        <marke>DMC</marke>
+        <bezeichnung>Natura XL</bezeichnung>
+        <Preis>8,06</Preis>
+        <Zusammenstellung>100% Baumwolle</Zusammenstellung>
+        <Nadelstärke>8 mm</Nadelstärke>
+        <Lieferbar>True</Lieferbar>
+    </product>
+    <product>
+        <marke>Drops</marke>
+        <bezeichnung>Safran</bezeichnung>
+        <Preis>1,55</Preis>
+        <Zusammenstellung>100% Baumwolle</Zusammenstellung>
+        <Nadelstärke>3 mm</Nadelstärke>
+        <Lieferbar>True</Lieferbar>
+    </product>
+    <product>
+        <marke>Drops</marke>
+        <bezeichnung>Baby Merino Mix</bezeichnung>
+        <Preis>3,45</Preis>
+        <Zusammenstellung>100% Merinowolle</Zusammenstellung>
+        <Nadelstärke>3 mm</Nadelstärke>
+        <Lieferbar>True</Lieferbar>
+    </product>
+    <product>
+        <marke>Hahn</marke>
+        <bezeichnung>Alpacca Speciale</bezeichnung>
+        <error>No such brand for search term</error>
+    </product>
+    <product>
+        <marke>Stylecraft</marke>
+        <bezeichnung>Special double knit</bezeichnung>
+        <error>No search result found</error>
+    </product>
+    <product>
+        <marke>Stylecraft</marke>
+        <bezeichnung>Special dk</bezeichnung>
+        <Preis>2,90</Preis>
+        <Zusammenstellung>100% Acryl</Zusammenstellung>
+        <Nadelstärke>4 mm</Nadelstärke>
+        <Lieferbar>True</Lieferbar>
+    </product>
+    <product>
+        <marke>Budgetyarn</marke>
+        <bezeichnung>Budgetyarn Chunky Acrylic</bezeichnung>
+        <Preis>1,23</Preis>
+        <Zusammenstellung>100% Acryl</Zusammenstellung>
+        <Nadelstärke>8 mm</Nadelstärke>
+        <Lieferbar>True</Lieferbar>
+    </product>
+    <product>
+        <marke>Katia</marke>
+        <bezeichnung>Katia Canada 9</bezeichnung>
+        <Preis>3,88</Preis>
+        <Zusammenstellung>100% Acryl</Zusammenstellung>
+        <Nadelstärke>7-8 mm</Nadelstärke>
+        <Lieferbar>False</Lieferbar>
+    </product>
+    <product>
+        <marke>KnitPro</marke>
+        <bezeichnung>Knitpro Zing Stricknadeln</bezeichnung>
+        <Preis>4,18</Preis>
+        <Lieferbar>True</Lieferbar>
+    </product>
+</root>
