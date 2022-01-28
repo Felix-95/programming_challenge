@@ -17,10 +17,10 @@ def get_product_properties(browser):
     content_place_holder = browser.find_element(By.ID, "pdetailTableSpecs")
     table_body = content_place_holder.find_element(By.TAG_NAME, "tbody")
     
-    useful_keys = ["Zusammenstellung", "Nadelstärke"]
+    searched_keys = ["Zusammenstellung", "Nadelstärke"]
     for table_row in table_body.find_elements(By.TAG_NAME, "tr"):
         key, value = table_row.find_elements(By.TAG_NAME, "td")
-        if key.text in useful_keys:
+        if key.text in searched_keys:
             properties[key.text] = value.text
     
     try:

@@ -19,7 +19,8 @@ def initialize_browser(headless_browser=False):
         browser_options.headless = True
 
     browser_path = PROJECT_DIR + "/browser/geckodriver.exe"
-    browser = Firefox(executable_path=browser_path, options=browser_options)
+    log_path = PROJECT_DIR + "/browser/geckodriver.log"
+    browser = Firefox(executable_path=browser_path, options=browser_options, service_log_path= log_path)
     browser.implicitly_wait(4)
     
     browser.get(URL)
