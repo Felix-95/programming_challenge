@@ -24,7 +24,9 @@ um möglicherweise einen zeitlichen Verlauf dazustellen.
 Sollten sich die Anforderungen (Produkteigenschaften) ändern, kann dies leicht
 durch Hinzufügen im Code in der Funktion/src/scraper.get_product_properties erreicht werden.
 Kann eine Produktnamen-Marken-Kombination nicht gefunden werden,
- so hat das Produkt in der XML Datei ein Element "error" in dem steht worin der Fehler besteht.
+so hat das Produkt in der XML Datei ein Element "error" in dem steht worin der Fehler besteht.
+Das Lieferdatum der Produkte konnt ich nicht finden, deshalb habe ich stattdessen die Eigenschaft 
+"lieferbar" benutzt.
 
 Um den Code zu testen, muss die Datei /src/test.py ausgeführt werden. 
 Leider ist es mir nicht gelungen diese in den Ordner /tests unterzubringen
