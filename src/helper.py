@@ -36,7 +36,7 @@ def get_products():
     products_path = PROJECT_DIR + "/data/products.xls"
     xls_sheet = xlrd.open_workbook(products_path).sheet_by_index(0)
     
-    products = [(xls_sheet.cell_value(x , 0), xls_sheet.cell_value(x, 1)) for x in range(xls_sheet.nrows)]
+    products = [(xls_sheet.cell_value(x , 0), xls_sheet.cell_value(x, 1))  for x in range(xls_sheet.nrows) if xls_sheet.cell_value(x , 0) and xls_sheet.cell_value(x, 1) ]
         
     return products
 

@@ -3,26 +3,26 @@
     <product>
         <marke>DMC</marke>
         <bezeichnung>Natura XL</bezeichnung>
-        <Preis>8,06</Preis>
         <Zusammenstellung>100% Baumwolle</Zusammenstellung>
         <Nadelstärke>8 mm</Nadelstärke>
         <Lieferbar>True</Lieferbar>
+        <Preis>8,06</Preis>
     </product>
     <product>
         <marke>Drops</marke>
         <bezeichnung>Safran</bezeichnung>
-        <Preis>1,55</Preis>
         <Zusammenstellung>100% Baumwolle</Zusammenstellung>
         <Nadelstärke>3 mm</Nadelstärke>
         <Lieferbar>True</Lieferbar>
+        <Preis>1,62</Preis>
     </product>
     <product>
         <marke>Drops</marke>
         <bezeichnung>Baby Merino Mix</bezeichnung>
-        <Preis>3,45</Preis>
         <Zusammenstellung>100% Merinowolle</Zusammenstellung>
         <Nadelstärke>3 mm</Nadelstärke>
         <Lieferbar>True</Lieferbar>
+        <Preis>3,64</Preis>
     </product>
     <product>
         <marke>Hahn</marke>
@@ -33,35 +33,5 @@
         <marke>Stylecraft</marke>
         <bezeichnung>Special double knit</bezeichnung>
         <error>No search result found</error>
-    </product>
-    <product>
-        <marke>Stylecraft</marke>
-        <bezeichnung>Special dk</bezeichnung>
-        <Preis>2,90</Preis>
-        <Zusammenstellung>100% Acryl</Zusammenstellung>
-        <Nadelstärke>4 mm</Nadelstärke>
-        <Lieferbar>True</Lieferbar>
-    </product>
-    <product>
-        <marke>Budgetyarn</marke>
-        <bezeichnung>Budgetyarn Chunky Acrylic</bezeichnung>
-        <Preis>1,23</Preis>
-        <Zusammenstellung>100% Acryl</Zusammenstellung>
-        <Nadelstärke>8 mm</Nadelstärke>
-        <Lieferbar>True</Lieferbar>
-    </product>
-    <product>
-        <marke>Katia</marke>
-        <bezeichnung>Katia Canada 9</bezeichnung>
-        <Preis>3,88</Preis>
-        <Zusammenstellung>100% Acryl</Zusammenstellung>
-        <Nadelstärke>7-8 mm</Nadelstärke>
-        <Lieferbar>False</Lieferbar>
-    </product>
-    <product>
-        <marke>KnitPro</marke>
-        <bezeichnung>Knitpro Zing Stricknadeln</bezeichnung>
-        <Preis>4,18</Preis>
-        <Lieferbar>True</Lieferbar>
     </product>
 </root>

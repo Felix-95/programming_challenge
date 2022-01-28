@@ -1,25 +1,18 @@
 
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import time
-import random
 from constants import URL
 
 def get_product_properties(browser):
-    wait = WebDriverWait(browser, 6)
     
     properties = {}
-    time.sleep(random.uniform(0.1, 0.3))
-    first_product = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.productlistholder.productlist25.sqr-resultItem")))
-    time.sleep(random.uniform(0.01, 0.05))
-    inner = first_product.find_element(By.CLASS_NAME, "innerproductlist")
-    title = inner.find_element(By.CLASS_NAME, "productlist-title")
-    time.sleep(random.uniform(0.1, 0.5))
-    a = title.find_element(By.TAG_NAME, "a").click()
+    search_result = browser.find_element(By.CLASS_NAME, "sooqrSearchResults")
     
-    properties["Preis"] = browser.find_element(By.CLASS_NAME, "product-price-amount").text
+    title = search_result.find_element(By.CLASS_NAME, "productlist-title")
+    title.find_element(By.TAG_NAME, "a").click()
+    
+    time.sleep(0.1)
     
     content_place_holder = browser.find_element(By.ID, "pdetailTableSpecs")
     table_body = content_place_holder.find_element(By.TAG_NAME, "tbody")
@@ -34,6 +27,8 @@ def get_product_properties(browser):
         properties["Lieferbar"] = True if browser.find_element(By.CLASS_NAME, "stock-green").text == "Lieferbar" else False 
     except:
         properties["Lieferbar"] = False
+        
+    properties["Preis"] = browser.find_element(By.CLASS_NAME, "product-price-amount").text
             
     return properties
 
